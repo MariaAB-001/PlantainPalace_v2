@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+/*HOME PAGE STYLE*/
+.home-container {
+  width: 100%;
+  height: 900px;
+  background-image: url(https://images.unsplash.com/photo-1513442381178-5cde86b936fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: 100%;
+  padding: 2%;
+}
+
+.header{
+  color: red;
+  height: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.plantain-palace-title {
+  font-size: 400%;
+}
+
+.body-container {
+  height: 100%;
+  width: 100%;
+}
+
+.about-us {
+  font-weight: 500;
+  height: 24%;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.about-items {
+  font-weight: normal;
+  padding-top: 0.1%;
+}
+
+.start-order-button {
+  margin-top: 6%;
+  height: 10%;
+  width: 15%;
+  font-weight: medium;
+  font-size: 100%;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+.link-start, .cancel-link, .link-confirm, .link-edit, .home-link, .link-cancel {
+  color: black;
+  text-decoration: none;
+}
+
+/*ORDER PAGE STYLE - some are shared with home above*/
+.order-main-container{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1640718367222-84f2b61d34f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: 100%;
+  padding: 2%;
+}
+
+.order-form-container, .view-cart-container, .confirmation-container{
+  background-color: none;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+}
+
+.view-cart-container, .confirmation-container {
+width: 100%;
+height: 800px;
+background-image: url(https://images.unsplash.com/photo-1640718367222-84f2b61d34f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+background-size: 100%;
+padding: 3%;
+text-align: center;
+}
+
+.customer-side-container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.add-to-cart-button, .confirm-changes-button, .confirm-order-button {
+  margin-right: 1%;
+}
+
+.edit-buttons-container {
+  padding-bottom: 2%;
+}
